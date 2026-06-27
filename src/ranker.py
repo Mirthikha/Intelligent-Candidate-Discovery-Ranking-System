@@ -64,9 +64,13 @@ def run_pipeline(ui_callback=None):
     raw_data=[]
 
     with open(DATA_PATH, "r", encoding="utf-8") as f:
-        for line in f:
-            if line.strip():
-                raw_data.append(json.loads(line))
+
+        if DATA_PATH.endswith(".jsonl"):
+            for line in f:
+                if line.strip():
+                    raw_data.append(json.loads(line))
+        else:
+            raw_data = json.load(f)
     
     print("Data loaded successfully and size is ", len(raw_data))
 
