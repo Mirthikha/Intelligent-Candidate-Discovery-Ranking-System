@@ -173,7 +173,7 @@ def three_level_architecture(candidate_chunks):
         current_title = str(profile.get('current_title', '')).lower()
 
         core_technical_keywords = ['machine learning', 'ml', 'ai', 'artificial intelligence', 'data scientist', 'backend', 'nlp', 'search', 'retrieval', 'software engineer','ranking','embeddings','llm','llms','fine tuning','tuning']
-        honeypot_titles = ['','project','project manager','project management','java','cloud','full stack','devops','marketing', 'support', 'accountant', 'mechanical', 'operations', 'sales', 'hr', 'recruiter', 'customer support', 'customer', 'civil','.net','graphic','design','designer', 'analyst', 'business']
+        honeypot_titles = ["cloud",'front end','project','project manager','project management','java','cloud','full stack','devops','marketing', 'support', 'accountant', 'mechanical', 'operations', 'sales', 'hr', 'recruiter', 'customer support', 'customer', 'civil','.net','graphic','design','designer', 'analyst', 'business']
 
         title_alignment_multiplier = 1.2
 
