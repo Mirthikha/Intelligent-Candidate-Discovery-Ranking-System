@@ -8,3 +8,4 @@ torch
 python-docx
 datasketch
 openpyxl
+torchvision
