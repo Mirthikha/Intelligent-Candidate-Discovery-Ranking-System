@@ -57,7 +57,7 @@ def run_pipeline(ui_callback=None):
     print("Reading jsonl as python dicts...")
     raw_data=[]
 
-    with open("data/candidates.jsonl", "r", encoding="utf-8") as f:
+    with open("data/sample_candidates.json", "r", encoding="utf-8") as f:
         for line in f:
             if line.strip():
                 raw_data.append(json.loads(line))
