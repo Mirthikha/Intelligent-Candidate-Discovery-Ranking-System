@@ -12,6 +12,12 @@ from datasketch import MinHash, MinHashLSH
 import torch.ao.quantization as ao_quant
 import streamlit as st
 import time
+from pathlib import Path
+
+if Path("data/candidates.jsonl").exists():
+    DATA_PATH = "data/candidates.jsonl"
+else:
+    DATA_PATH = "data/sample_candidates.json"
 
 def update_ui_status(text):
     import sys
