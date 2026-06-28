@@ -15,5 +15,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 data/candidates.jsonl
-
-top_100_ranked_candidates.xlsx
