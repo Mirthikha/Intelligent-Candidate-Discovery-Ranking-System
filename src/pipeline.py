@@ -4,7 +4,7 @@ import datetime
 current_date=datetime.datetime(2026,5,24)
 
 service_based_companies={"tcs", "infosys", "wipro", "accenture", "cognizant", "mindtree", "hcl", "tech mahindra"}
-IR_keywords = IR_keywords={"nlp", "search", "retrieval", "ranking", "embedding", "vector", "llm", "transformers", "milvus", "pinecone", "faiss", "elasticsearch", "lora"}
+IR_keywords ={"nlp", "search", "retrieval", "ranking", "embedding", "vector", "llm", "transformers", "milvus", "pinecone", "faiss", "elasticsearch", "lora"}
 
 def three_level_architecture(candidate_chunks):
     cleaned_candidates=[]
